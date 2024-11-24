@@ -207,6 +207,11 @@ ol {
  overflow-x: auto;
 }
 
+.content__list-item { 
+  margin-left: 2px; 
+  margin-right: 5px; 
+}
+
 .content__list-item:not(:last-child) {
   padding-bottom: 30px;
 }
@@ -217,6 +222,7 @@ ol {
   color: rgb(255, 255, 255);
   padding: 2px;
 }
+
 .button:active,
 .content__card-link:active,
 .content__card-link_current {
